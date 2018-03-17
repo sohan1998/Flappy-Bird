@@ -14,7 +14,7 @@ BG_COLOR = (0,0,0)
 
 
 pygame.init()
-pygame.display.set_caption(" Name of the Game ")
+pygame.display.set_caption(" FLAPPY BIRD ")
 screen = pygame.display.set_mode(SCREEN_DIMENSIONS)
 clock = pygame.time.Clock()
 
