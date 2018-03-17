@@ -25,7 +25,6 @@ clock = pygame.time.Clock()
 
 
 
-
 def main():
 	while True:
 
