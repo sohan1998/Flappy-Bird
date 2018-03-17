@@ -1,8 +1,12 @@
 
 import sys, os
+import math
+from random import randint
+from collections import deque
 
 import pygame
 from pygame.locals import *
+
 
 
 SCREEN_DIMENSIONS = screenX, screenY = (720, 480)
