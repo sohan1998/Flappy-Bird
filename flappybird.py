@@ -11,6 +11,7 @@ from pygame.locals import *
 
 SCREEN_DIMENSIONS = screenX, screenY = (720, 480)
 BG_COLOR = (0,0,0)
+FPS = 60
 
 
 pygame.init()
@@ -45,7 +46,7 @@ def main():
 		
 		screen.fill(BG_COLOR)
 		pygame.display.update()
-		clock.tick(60)
+		clock.tick(FPS)
 
 
 
