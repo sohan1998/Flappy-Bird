@@ -1,8 +1,8 @@
 
 import sys, os
 import math
-from random import randint
-from collections import deque
+import random
+from itertools import cycle
 
 import pygame
 from pygame.locals import *
@@ -10,7 +10,7 @@ from pygame.locals import *
 
 
 SCREEN_DIMENSIONS = screenX, screenY = (720, 480)
-BG_COLOR = (0,0,0)
+BG_COLOR = (0, 0, 0)
 FPS = 60
 
 
@@ -18,7 +18,6 @@ pygame.init()
 pygame.display.set_caption(" FLAPPY BIRD ")
 screen = pygame.display.set_mode(SCREEN_DIMENSIONS)
 clock = pygame.time.Clock()
-
 
 
 
@@ -43,7 +42,7 @@ def main():
 		# if keyPressed[pygame.K_SPACE]:
 			
 
-		
+
 		screen.fill(BG_COLOR)
 		pygame.display.update()
 		clock.tick(FPS)
